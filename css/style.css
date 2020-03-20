@@ -163,6 +163,9 @@ a.navbar-brand {
   color: #ff6900;
   margin-top: 12px;
 }
+span.carousel-control-prev-icon.nutduoitrai, span.carousel-control-next-icon.nutduoiphai{
+  top: 36%;
+}
 #carouselExampleControls {
   position: relative;
 }
@@ -391,7 +394,7 @@ button.btn.btn-warning {
   height: 120%;
 }
 .carousel-inner.carousel-2 {
-  height: 430px;
+
   margin-bottom: 70px;
 }
 .bd-example {
@@ -466,11 +469,11 @@ button.btn.btn-warning {
 }
 /* carousel 1 */
 .carousel-inner {
-  height: 500px;
+  height: 506px;
 }
 .carousel-inner .item,
 .carousel-inner .active {
-  height: 400px;
+  height: 506px;
 }
 /* responsive */
 /* Dành cho máy tính bảng */
@@ -493,14 +496,22 @@ button.btn.btn-warning {
   .tg {
     padding-top: 0px;
   }
+  .carousel-indicators {
+    color: #000000;
+    position: absolute;
+    right: 0;
+    bottom: 87px;
+    left: 0;
+    z-index: 15;
+}
   span.carousel-control-prev-icon.nutduoitrai{
-    top: 39%;
+    top: 32%;
   }
   span.carousel-control-next-icon.nutduoiphai {
-    top: 39%;
+    top: 32%;
   }
   .carousel-control-prev-icon {
-    top: 17%;
+    top: 13%;
     border-radius: 50%;
     width: 44px;
     height: 44px;
@@ -510,7 +521,7 @@ button.btn.btn-warning {
     left: 10px;
   }
   .carousel-control-next-icon {
-    top: 17%;
+    top: 13%;
     border-radius: 50%;
     width: 44px;
     height: 44px;
@@ -643,11 +654,20 @@ button.btn.btn-warning {
     top: 45%;
     right: 45%;
   }
-}
-@media all and (max-width: 973px) {
-  .khoi3.text-center{
-    display: none;
+  .widget-event button.btn.btn-primary {
+    color: white;
   }
+  button.btn.btn-warning{
+    width: 200%;
+  }
+.contact {
+    padding-left: 15%;
+}
+input.form-control{
+  width: 200%;
+}
+}
+/* @media all and (max-width: 973px) {
   .carousel-indicators{
     bottom: 169px;
   }
@@ -819,8 +839,26 @@ button.btn.btn-warning {
     top: 45%;
     right: 45%;
   }
-}
+} */
 @media all and (max-width: 768px) {
+  input.form-control{
+    width: 100%;
+  }
+  .contact{
+    padding-left: 0;
+  }
+  .text-center .dola{
+    font-size: 30px;
+    padding-right: 35%;
+  }
+  .bg-gray{
+    height: auto;
+  }
+  .khoi3.text-center {
+    position: absolute;
+    right: -70px;
+    width: 72%;
+  }
   .group {
     margin-top: 25px;
   }
@@ -888,30 +926,31 @@ button.btn.btn-warning {
   }
   .khoi2,
   .anh2 {
+    width: 123%;
+    position: relative;
     padding-right: 0;
     padding-left: 0;
   }
   .widget-event{
+    margin-left: 41px;
     width: 180%;
   }
-  .widget-event button {
-    width: 11%;
-    height: 5%;
+ .widget-event button {
+    width: 15%;
+    height: 12%;
     background-color: #00379c;
     border: none;
     color: white;
-    font-size: 7px;
-  }
+    font-size: 9px;
+}
   .widget-event a h5 {
-    font-size: 13px;
+    font-size: 14px;
   }
   .widget-event span {
     width: 325px;
     font-size: 10px;
   }
-  .khoi3.text-center {
-    display: none;
-  }
+
   .text-center h2 {
     margin: 15px 0px;
     padding: 8px 0px;
@@ -973,13 +1012,8 @@ button.btn.btn-warning {
     letter-spacing: normal;
     color: #cfcfcf;
   }
-  input.form-control {
-    width: 212%;
-    height: 29px;
-    margin-bottom: 10px;
-  }
   button.btn.btn-warning {
-    width: 212%;
+    width: 100%;
     height: 29px;
     font-size: 10px;
   }
@@ -987,7 +1021,13 @@ button.btn.btn-warning {
     padding: 6px 12px 14px 4px;
   }
 }
-@media all and (max-width: 754px) {
+/* @media all and (max-width: 754px) {
+  .list-icon.text-center{
+    margin: 0 8px;
+  }
+  .text-center .dola{
+    font-size: 22px;
+  }
   .container-fluid.bg-gray{
     height: auto;
   }
@@ -1001,9 +1041,6 @@ button.btn.btn-warning {
 .container{
   max-width: 700px;
 }
- footer{
-   display: none;
- }
   .text-center.title-event-2 {
     padding-top: 186px;
 }
@@ -1078,7 +1115,8 @@ button.btn.btn-warning {
     padding-left: 0;
   }
   .widget-event{
-    width: 180%;
+    width: 194%;
+    margin-left: 30px;
   }
   .widget-event button {
     width: 11%;
@@ -1089,18 +1127,16 @@ button.btn.btn-warning {
     font-size: 7px;
   }
   .widget-event a h5 {
-    font-size: 13px;
+    font-size: 14px;
+    padding: 10px 0px;
   }
   .widget-event span {
     width: 325px;
     font-size: 10px;
   }
-  .khoi3.text-center {
-    display: none;
-  }
   .text-center h2 {
     margin: 15px 0px;
-    padding: 8px 0px;
+    padding: 18px 0px;
     font-size: 18px;
   }
   .text-center.view-a {
@@ -1134,9 +1170,12 @@ button.btn.btn-warning {
   .widget-title h3 {
     font-size: 14px;
   }
+  .contact{
+    padding-left: 0px;
+  }
   .widget-desc p {
     font-family: Cabin;
-    font-size: 9 px;
+    font-size: 9px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -1160,19 +1199,19 @@ button.btn.btn-warning {
     color: #cfcfcf;
   }
   input.form-control {
-    width: 212%;
+    width: 100%;
     height: 29px;
     margin-bottom: 10px;
   }
   button.btn.btn-warning {
-    width: 212%;
+    width: 100%;
     height: 29px;
     font-size: 10px;
   }
   .navbar-light .navbar-nav .nav-link {
     padding: 6px 12px 14px 4px;
   }
-}
+} */
 @media all and (max-width: 414px) {
   a.navbar-brand{
     margin-left: 15px;
@@ -1180,9 +1219,6 @@ button.btn.btn-warning {
   button.navbar-toggler {
     margin-right: 15px;
 }
-  footer{
-    display: none;
-  }
   .widget-event {
     width: 96%;
     padding-left: 20px;
