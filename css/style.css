@@ -1173,7 +1173,7 @@ button.btn.btn-warning {
     padding: 6px 12px 14px 4px;
   }
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 414px) {
   a.navbar-brand{
     margin-left: 15px;
   }
