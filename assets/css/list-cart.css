@@ -1,0 +1,384 @@
+.navbar{
+    padding: 0;
+  }
+  .bg-light{
+    background-color: white !important;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  a.navbar-brand {
+    font-family: YesevaOne;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 29px 0px 29px 0px;
+  }
+  .navbar-brand .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .nav > li > a {
+    padding: 0;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-family: Cabin;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #464646;
+    padding: 41px 25px 40px 25px;
+  }
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ff6900;
+    background-color: white;
+  }
+/* css container event */
+#wrapper-widget {
+  padding-top: 42px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #cbcbcb;
+}
+  .widget-event img{
+    float: left;
+    width: 267px;
+    height: 168px;
+    object-fit: contain;
+  }
+  .widget-dec p{
+    width: 434px;
+    padding-top: 50px;
+    margin: 0;
+    font-family: Cabin;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000
+    
+  }
+  .widget-event button{
+     width: 171px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  }
+  .cancel{
+    position: relative;
+  }
+  .cancel img{
+    position: absolute;
+    bottom: 47%;
+  }
+  .thumb img {
+    margin-right: 20px;
+}
+#wp-btn{
+  width: 171px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  position: relative;
+  float: left;
+  margin-top: 53px;
+}
+button.btn-secondary{
+  position: absolute;
+  left: 0px;
+  width: 48px;
+  height: 48px;
+  opacity: 0.52;
+  border-radius: 5px;
+  background-color: #cbcbcb;}
+  p.text {
+    bottom: 23%;
+    position: absolute;
+    right: 50%;
+    font-family: Cabin;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+button.btn.btn-dark{
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #000000;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+span.dola{
+  margin-top: 52px;
+  width: 69px;
+  height: 44px;
+  font-family: Cabin;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  float: right;
+  color: #ff6900;
+}
+/* footer */
+footer {
+    background-color: #000000;
+  }
+  .widget-title h3 {
+    font-family: YesevaOne;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-top: 61px;
+    padding-bottom: 19px;
+  }
+  .widget-desc {
+    width: 260px;
+  }
+  .widget-desc p {
+      width: 260px;
+      height: 180px;
+      font-family: Cabin;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #cfcfcf;
+  }
+  .widget-desc p span {
+    margin-bottom: 15px;
+    display: block;
+  }
+  .list-recent p {
+    display: block;
+    margin-bottom: 10px;
+    width: 260px;
+    height: 18px;
+    font-family: Cabin;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #cfcfcf;
+  }
+  
+  input.form-control {
+    width: 363px;
+    height: 44px;
+    border-radius: 3px;
+    border: solid 1px #979797;
+    background-color: #000000;
+    font-family: Cabin;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #666666;
+    margin-bottom: 16px;
+  }
+  button.btn.btn-warning {
+    width: 363px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #ff6900;
+    font-family: Cabin;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  .events{
+    padding-left: 10%;
+  }
+  .contact{
+    padding-left: 20%;
+  }
+  @media all and (max-width: 1200px) {
+     input.form-control, button.btn.btn-warning{
+      width: 180%;
+    }
+  }
+  @media all and (max-width: 1024px) {
+    input.form-control, button.btn.btn-warning{
+      width: 195%;
+    }
+    span.dola{
+      width: 50px;
+    }
+    #wp-btn{
+      margin-left: 64px;
+      width: 148px;
+    }
+    .contact{
+      padding-left: 14%;
+    }
+  }
+   @media all and (max-width:980px){
+    #wp-btn{
+      margin-left: 90%;
+    }
+    .widget-dec p{
+      width: 316%;
+      font-size: 22px;
+    }
+   }
+    @media all and (max-width:800px){
+    #wp-btn {
+    margin-left: 100px;
+    width: 134px;
+    height: 42px;
+  }
+  button.btn-secondary{
+    width: 42px;
+    height: 42px;
+  }
+  button.btn.btn-dark{
+    width: 42px;
+    height: 42px;
+  }
+  p.text{
+    font-size: 20px;
+  }
+  span.dola{
+    margin-top: 20px;
+    font-size: 28px;
+    width: 64px;
+  }
+  .widget-dec p {
+    width: 236px;
+    padding-top: 58px;
+    margin: 0;
+    font-family: Cabin;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  input.form-control, button.btn.btn-warning{
+    width: 260px;
+  }
+  .widget-desc p{
+    width: 200px;
+    font-size: 12px;
+  }
+  .col-xs-12.col-sm-9.col-md-3.col-md-push-1.col-lg-3.events{
+    max-width: 35%;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    padding: 7px 25px;
+  }
+  .contact{
+    padding-left: 4%;
+  }
+  }
+  @media all and (max-width:768px){
+    .cancel img{
+      display: none;
+    }
+    div#wp-btn {
+    top: -32px;
+    left: -97px;
+  }
+  span.dola {
+    top: 5px;
+    position: absolute;
+    left: 193px;
+}
+    #wp-btn {
+    margin-left: 100px;
+    width: 134px;
+    height: 42px;
+  }
+  button.btn-secondary{
+    width: 42px;
+    height: 42px;
+  }
+  button.btn.btn-dark{
+    width: 42px;
+    height: 42px;
+  }
+  p.text{
+    font-size: 20px;
+  }
+  span.dola{
+    margin-top: 20px;
+    font-size: 28px;
+    width: 64px;
+  }
+  .widget-dec p {
+    width: 236px;
+    padding-top: 58px;
+    margin: 0;
+    font-family: Cabin;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  input.form-control, button.btn.btn-warning{
+    width: 260px;
+  }
+  .widget-desc p{
+    width: 200px;
+    font-size: 12px;
+  }
+  .col-xs-12.col-sm-9.col-md-3.col-md-push-1.col-lg-3.events{
+    max-width: 35%;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    padding: 7px 25px;
+  }
+  .contact{
+    padding-left: 4%;
+  }
+  footer{
+    display: none;
+  }
+  .justify-content-between{
+    -webkit-box-pack: unset;
+    
+  }
+  .d-flex{
+    display: inline-block !important;
+  }
+  a.navbar-brand{
+    margin-left: 10px;
+  }
+  button.navbar-toggler.collapsed {
+    margin-right: 10px;
+}
+  }
