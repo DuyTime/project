@@ -142,9 +142,7 @@ button.btn-search img {
   object-fit: contain;
   margin-left: 90px;
 }
-#main-cover {
-  position: relative;
-}
+
 /* css container */
 /* wwidget event */
 #reative-widget {
@@ -274,7 +272,6 @@ button.btn-search img {
 .widget-event .clock img {
   float: left;
 }
-
 /* footer */
 footer {
   background-color: #000000;
@@ -359,6 +356,12 @@ button.btn.btn-warning {
    width: 97%;
     top: -128px;
  }
+ .widget-event button {
+    color: white;
+  }
+  button.btn-search p{
+    color: white;
+  }
   html,
   body,
   header,
@@ -621,12 +624,13 @@ button.btn.btn-warning {
   body,
   header,
   .view {
-    height: 81%;
+   height: 88%;
     width: 100%;
   }
   .widget-cover {
     width: 96%;
     height: 108px;
+    top: -93px;
   }
   .widget-event a h5{
     font-size: 14px;
@@ -641,15 +645,16 @@ button.btn.btn-warning {
     height: 32px;
     margin-right: 30px;
   }
-  .widget-cover {
-    height: 115px;
+  button.btn p {
+    font-family: Cabin;
+    font-size: 12px;
   }
   .widget-cover button.btn-search {
     width: 20%;
     height: 32px;
   }
   button.btn-search img {
-    margin-left: 28px;
+    margin-left: 24px;
   }
   button.btn-search p {
     color: white;
@@ -713,6 +718,94 @@ button.btn.btn-warning {
   }
 }
 @media all and (max-width: 600px){
+  .navbar-default .navbar-nav > li > a{
+    padding: 5px 20px;
+    z-index: 3;
+  }
+  html, body, header, .view {
+    height: 88%;
+    width: 100%;
+}
+  .widget-event {
+    width: 396px;
+  }
+  .widget-cover button {
+    width: 25%;
+    height: 32px;
+    margin-right: 3px;
+  }
+  .widget-cover h3{
+    font-size: 14px;
+    padding-bottom: 2px;
+  }
+  .widget-cover{
+    padding: 10px;
+    height: 87px;
+    top: -92px;
+  }
+  button.btn p{
+    font-size: 10px;
+  }
+  button.btn-search img{
+    margin-left: 2px;
+  }
+  button.btn img{
+    width: 15%;
+  }
+  .anh2 {
+    width: 121%;
+    padding-right: 10px;
+  }
+  .widget-event a h5 {
+    font-size: 12px;
+    width: 80%;
+    padding: 4px 0px;
+  }
+  button.btn.btn-primary {
+    width: 71px;
+    font-size: 9px;
+  }
+  .widget-event span {
+    font-size: 9px;
+  }
+  .user span {
+    padding-right: 10px;
+  }
+  .text-center .dola{
+    font-size: 16px;
+     right: -16px;
+    position: absolute;
+  }
+  .text-center button.btn.btn-primary{
+    width: 50px;
+    right: 30px;
+    top: 20px;
+    position: absolute;
+  }
+  .widget-title h3{
+    font-size: 18px;
+    padding-top: 28px;
+  }
+  .widget-desc p{
+    font-size: 10px;
+    padding-right: 68px;
+  }
+  .col-xs-4.col-sm-3.col-md-3.col-md-push-1.col-lg-3.events {
+    padding-left: 81px;
+  }
+  .list-recent p{
+    font-size: 10px;
+  }
+  input.form-control{
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  button.btn.btn-warning{
+    width: 100%;
+  }
+
+}
+@media all and (max-width: 414px){
   .navbar-default .navbar-nav > li > a{
     padding: 5px 20px;
     z-index: 3;

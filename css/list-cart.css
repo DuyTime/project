@@ -382,3 +382,83 @@ footer {
     margin-right: 10px;
 }
   }
+  @media all and (max-width:414px){
+    .cancel img{
+      display: none;
+    }
+    div#wp-btn {
+    top: -32px;
+    left: -97px;
+  }
+  span.dola {
+    top: 5px;
+    position: absolute;
+    left: 193px;
+}
+    #wp-btn {
+    margin-left: 100px;
+    width: 134px;
+    height: 42px;
+  }
+  button.btn-secondary{
+    width: 42px;
+    height: 42px;
+  }
+  button.btn.btn-dark{
+    width: 42px;
+    height: 42px;
+  }
+  p.text{
+    font-size: 20px;
+  }
+  span.dola{
+    margin-top: 20px;
+    font-size: 28px;
+    width: 64px;
+  }
+  .widget-dec p {
+    width: 236px;
+    padding-top: 58px;
+    margin: 0;
+    font-family: Cabin;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  input.form-control, button.btn.btn-warning{
+    width: 260px;
+  }
+  .widget-desc p{
+    width: 200px;
+    font-size: 12px;
+  }
+  .col-xs-12.col-sm-9.col-md-3.col-md-push-1.col-lg-3.events{
+    max-width: 35%;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    padding: 7px 25px;
+  }
+  .contact{
+    padding-left: 4%;
+  }
+  footer{
+    display: none;
+  }
+  .justify-content-between{
+    -webkit-box-pack: unset;
+    
+  }
+  .d-flex{
+    display: inline-block !important;
+  }
+  a.navbar-brand{
+   margin-left: 16px;
+  }
+ .navbar-light .navbar-toggler {
+    margin-right: 20px;
+  }
+}
